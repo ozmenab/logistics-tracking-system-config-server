@@ -8,6 +8,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/tracking_system
     username: postgres
     password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
 
 eureka:
   client:
